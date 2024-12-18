@@ -1,15 +1,7 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
-export default function Home() {
+export default function About() {
   return (
     <div >
-      <Image 
-      src="/1.png"
-      width={450}
-      height={600}
-      alt="wedding photo"
-      />
+        <h1>About</h1>
     </div>
   );
 }

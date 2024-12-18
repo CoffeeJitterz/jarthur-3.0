@@ -1,9 +1,11 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function Navigation() {
     return (
-      <div >
-        
-      </div>
+        <div>
+            <Link href={"/"}>Home</Link>
+            <Link href={"/about"}>About</Link>
+        </div>
+
     );
   }
