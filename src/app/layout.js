@@ -4,8 +4,8 @@ import Navigation from "@/Components/Navigation";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Navigation />
       <body>
+        <Navigation />
         {children}
       </body>
     </html>
