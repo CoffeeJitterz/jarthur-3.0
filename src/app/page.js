@@ -3,12 +3,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="page">
-      <h1>Home</h1>
       <Image 
-      src="/1.png"
-      width={450}
+      src="/jarthur_logo.png"
+      width={650}
       height={600}
-      alt="wedding photo"
+      alt="cartoon faces"
       />
     </div>
   );
