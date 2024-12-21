@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="page">
-        <h1>About</h1>
+        <h1 className="about_header">About</h1>
         <Image 
         src="/1.png"
         width={450}
