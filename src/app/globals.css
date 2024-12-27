@@ -18,20 +18,14 @@ body {
   overflow-x: hidden;
 }
 
-.background {
-  background-image: url('/public/jarthur_pattern.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 body {
   color: var(--foreground);
-
-  background-color: rgb(255, 230, 167);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('/jarthur_pattern.png');
+  background-size: 300px;
+  background-repeat: repeat;
 }
 
 * {
@@ -55,6 +49,8 @@ a {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+
+ 
 }
 
 .navigation {
