@@ -1,10 +1,12 @@
 .navigation {
     display: flex;
     justify-content: space-between;
-    border: 2px solid rgb(96 139 168);
-    border-radius: 5px;
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    background-color: aqua;
+    background-color: rgb(255, 119, 241);
+    border: 2px solid rgb(168, 96, 96);
+    border-radius: 5px;
+    padding: 5px;
+    color: aqua;
   }
