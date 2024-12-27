@@ -5,6 +5,7 @@ export default function Navigation() {
         <div className="navigation">
             <Link href={"/"}>Home</Link>
             <Link href={"/about"}>About</Link>
+            <Link href={"/milk"}>milk</Link>
         </div>
 
     );
