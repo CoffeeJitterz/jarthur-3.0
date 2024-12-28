@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Navigation from "@/Components/Navigation";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
             height={600}
             alt="cartoon faces"
             />
+            <Navigation />
     </div>
   );
 }
