@@ -15,9 +15,9 @@ export default function Navigation() {
 
     return (
         <div className="navigation">
-            <Link href={"/"}>Home</Link>
-            <Link href={"/about"}>About</Link>
-            <Link href={"/milk"}>milk</Link>
+            <Link onClick={() => click("yellow")} href={"/"}>Home</Link>
+            <Link onClick={() => click("Green")} href={"/about"}>About</Link>
+            <Link onClick={() => click("Red")} href={"/milk"}>milk</Link>
         </div>
 
     );

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Navigation from "@/Components/Navigation";
+// import Navigation from "@/Components/Navigation";
 
 export default function About() {
   return (

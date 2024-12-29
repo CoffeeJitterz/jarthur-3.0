@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
-import {useState, useEffect} from 'react';
-import Navigation from "@/Components/Navigation";
+// import {useState, useEffect} from 'react';
+// import Navigation from "@/Components/Navigation";
 
 export default function Home() {
 
