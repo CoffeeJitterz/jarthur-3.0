@@ -1,5 +1,4 @@
 import Image from "next/image";
-// import Navigation from "@/Components/Navigation";
 
 export default function About() {
   return (
@@ -11,7 +10,6 @@ export default function About() {
         height={600}
         alt="wedding photo"
         />
-        {/* <Navigation /> */}
     </div>
   );
 }

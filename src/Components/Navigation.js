@@ -18,6 +18,7 @@ export default function Navigation() {
             <Link onClick={() => click("yellow")} href={"/"}>Home</Link>
             <Link onClick={() => click("Green")} href={"/about"}>About</Link>
             <Link onClick={() => click("Red")} href={"/milk"}>milk</Link>
+            <button>Change Pattern</button>
         </div>
 
     );
