@@ -4,26 +4,25 @@ import {useState, useEffect} from 'react';
 
 export default function Home() {
 
-  const [pattern, setPattern] = useState("page")
+  const [pattern, setPattern] = useState(1)
 
   const click = pattern => {
-    setPattern(pattern)
+    if (pattern < 3) {
+      setPattern(pattern + 1)
+    } else if (pattern >= 3)
+    setPattern(1)
+    console.log(pattern)
   }
-  const josh = "page_1";
-
-  useEffect(() => {
-    document.body.style.backgroundImage = pattern
-  }, [pattern])
 
   return (
-    <div className={`${pattern}`} > 
+    <div className={`page_${pattern}`} > 
             <Image 
             src="/jarthur_logo.png"
             width={650}
             height={600}
             alt="cartoon faces"
             />
-            <button onClick={() => {click("page_1")}}>Change Pattern</button>
+            <button onClick={() => {click(pattern)}}>Change Pattern</button>
     </div>
   );
 }
