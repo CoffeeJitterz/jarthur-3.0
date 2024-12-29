@@ -6,6 +6,7 @@
     background-image: url('/jarthur_pattern_2.png');
     background-size: 250px;
     background-repeat: repeat;
+    height: 95vh;
 }
 
 .about_header {

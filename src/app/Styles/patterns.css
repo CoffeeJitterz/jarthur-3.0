@@ -6,6 +6,7 @@
     background-image: url('/jarthur_pattern_1.png');
     background-size: 250px;
     background-repeat: repeat;
+    height: 95vh;
   }
   .page_2{
     display: flex;
@@ -15,6 +16,7 @@
     background-image: url('/jarthur_pattern_2.png');
     background-size: 250px;
     background-repeat: repeat;
+    height: 95vh;
   }
   .page_3{
     display: flex;
@@ -24,4 +26,5 @@
     background-image: url('/jarthur_pattern_3.png');
     background-size: 250px;
     background-repeat: repeat;
+    height: 95vh;
   }
