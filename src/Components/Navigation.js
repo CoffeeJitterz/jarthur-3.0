@@ -3,7 +3,7 @@ import Link from "next/link";
 import {useState, useEffect} from 'react';
 
 export default function Navigation() {
-  const [color, setColor] = useState("Blue");
+  const [color, setColor] = useState("#ffe69d");
 
   const click = color => {
     setColor(color)
@@ -15,9 +15,9 @@ export default function Navigation() {
 
     return (
         <div className="navigation">
-            <Link onClick={() => click("yellow")} href={"/"}>Home</Link>
-            <Link onClick={() => click("Green")} href={"/about"}>About</Link>
-            <Link onClick={() => click("Red")} href={"/milk"}>milk</Link>
+            <Link onClick={() => click("#ffe69d")} href={"/"}>Home</Link>
+            <Link onClick={() => click("#94ce88")} href={"/about"}>About</Link>
+            <Link onClick={() => click("#c565a3")} href={"/milk"}>milk</Link>
         </div>
 
     );
