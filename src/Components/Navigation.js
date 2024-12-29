@@ -15,9 +15,10 @@ export default function Navigation() {
 
     return (
         <div className="navigation">
-            <Link onClick={() => click("#ffe69d")} href={"/"}>Home</Link>
-            <Link onClick={() => click("#94ce88")} href={"/about"}>About</Link>
-            <Link onClick={() => click("#c565a3")} href={"/milk"}>milk</Link>
+
+            <Link className="link" onClick={() => click("#ffe69d")} href={"/"}>Home</Link>
+            <Link className="link" onClick={() => click("#94ce88")} href={"/about"}>About</Link>
+            <Link className="link" onClick={() => click("#c565a3")} href={"/milk"}>milk</Link>
         </div>
 
     );
