@@ -11,7 +11,7 @@ export default function About() {
         height={600}
         alt="wedding photo"
         />
-        <Navigation />
+        {/* <Navigation /> */}
     </div>
   );
 }
