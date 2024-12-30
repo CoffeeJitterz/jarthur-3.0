@@ -9,6 +9,7 @@ export default function Navigation() {
   const click_color = color => {
     setColor(color)
   }
+  
   useEffect(() => {
     document.body.style.backgroundColor = color
   }, [color])
@@ -20,7 +21,6 @@ export default function Navigation() {
       setPattern(pattern + 1)
     } else if (pattern >= 3)
     setPattern(1)
-    // console.log(pattern)
   }
 
     return (
@@ -28,7 +28,7 @@ export default function Navigation() {
 
             <Link 
             className="link" 
-            onClick={() => click_pattern(pattern)} 
+            onClick={() => {click_pattern(pattern); click_color("Blue")}} 
             href={{
                 pathname:"/",
                 query: {
@@ -36,7 +36,7 @@ export default function Navigation() {
                 }}}>
             Home</Link>
             <Link 
-            className="link" onClick={() => click_pattern(pattern)} 
+            className="link" onClick={() => {click_pattern(pattern); click_color("Yellow")}} 
             href={{
                 pathname: "/about",
                 query: {
@@ -45,7 +45,7 @@ export default function Navigation() {
             About</Link>
             <Link 
             className="link" 
-            onClick={() => click_pattern(pattern)} 
+            onClick={() => {click_pattern(pattern); click_color("Brown")}} 
             href={{pathname: "/milk",
                     query: {
                         pattern: pattern
