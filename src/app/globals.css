@@ -2,6 +2,7 @@
 @import "styles/milk.css";
 @import "styles/navigation.css";
 @import "styles/patterns.css";
+@import "styles/card.css"
 
 :root {
   --background: #ffffff;
@@ -46,11 +47,4 @@ a {
   }
 }
 
-.card {
-  background-color: aqua;
-  padding: 50px;
-  margin: 50 px;
-  box-shadow: 5px 10px #000000;
-
-}
 
