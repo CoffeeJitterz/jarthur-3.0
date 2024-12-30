@@ -4,7 +4,8 @@ import Image from "next/image";
 
 export default async function Home({searchParams}) {
 
-  const pattern = await searchParams.pattern;
+  const params = await searchParams;
+  const pattern = params.pattern;
 
   return (
     <div className={`page_${pattern}`} > 
