@@ -1,24 +1,57 @@
 "use client"
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {useState, useEffect} from 'react';
 
 export default function Navigation() {
   const [color, setColor] = useState("#ffe69d");
 
-  const click = color => {
+  const click_color = color => {
     setColor(color)
   }
-
   useEffect(() => {
     document.body.style.backgroundColor = color
   }, [color])
 
+  const [pattern, setPattern] = useState(1)
+
+  const click_pattern = pattern => {
+    if (pattern < 3) {
+      setPattern(pattern + 1)
+    } else if (pattern >= 3)
+    setPattern(1)
+    console.log(pattern)
+  }
+
     return (
         <div className="navigation">
 
-            <Link className="link" onClick={() => click("#ffe69d")} href={"/"}>Home</Link>
-            <Link className="link" onClick={() => click("#94ce88")} href={"/about"}>About</Link>
-            <Link className="link" onClick={() => click("#c565a3")} href={"/milk"}>milk</Link>
+            <Link 
+            className="link" 
+            onClick={() => click_pattern(pattern)} 
+            href={{
+                pathname:"/",
+                query: {
+                    pattern: pattern
+                }}}>
+            Home</Link>
+            <Link 
+            className="link" onClick={() => click_pattern(pattern)} 
+            href={{
+                pathname: "/about",
+                query: {
+                    pattern: pattern
+                }}}>
+            About</Link>
+            <Link 
+            className="link" 
+            onClick={() => click_pattern(pattern)} 
+            href={{pathname: "/milk",
+                    query: {
+                        pattern: pattern
+                    }
+            }}>
+            milk</Link>
         </div>
 
     );
