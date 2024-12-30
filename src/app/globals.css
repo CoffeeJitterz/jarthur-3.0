@@ -46,5 +46,11 @@ a {
   }
 }
 
+.card {
+  background-color: aqua;
+  padding: 50px;
+  margin: 50 px;
+  box-shadow: 5px 10px #000000;
 
+}
 

@@ -4,18 +4,16 @@ import Link from "next/link";
 import {useState, useEffect} from 'react';
 
 export default function Navigation() {
+    
   const [color, setColor] = useState("#ffe69d");
-
   const click_color = color => {
     setColor(color)
   }
-  
   useEffect(() => {
     document.body.style.backgroundColor = color
   }, [color])
 
   const [pattern, setPattern] = useState(1)
-
   const click_pattern = pattern => {
     if (pattern < 3) {
       setPattern(pattern + 1)
