@@ -20,7 +20,7 @@ export default function Navigation() {
       setPattern(pattern + 1)
     } else if (pattern >= 3)
     setPattern(1)
-    console.log(pattern)
+    // console.log(pattern)
   }
 
     return (
