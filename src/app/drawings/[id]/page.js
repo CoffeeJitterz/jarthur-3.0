@@ -4,7 +4,7 @@ function page({params}) {
 
 const drawings = [{id:"poop", title:"crazy caves", description: "that was a crazy part of the cave"},
                   {id:"pee", title:"wild caves", description: "that was a wild part of the cave"}];
-const drawingRender = drawings.map(drawing => <h1>drawing</h1>)
+const drawingRender = drawings.map(drawing => <h1>{drawing.title}</h1>)
 
   return (
     <div>
