@@ -14,7 +14,7 @@ const drawingRender = drawings.map(drawing => {if(drawing.id === params.id)
     <h3>{drawing.image}</h3>
     <Image 
             src={drawing.image}
-            width={650}
+            width={600}
             height={600}
             alt="cartoon faces"
             />

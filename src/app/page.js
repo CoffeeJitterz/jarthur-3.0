@@ -7,9 +7,9 @@ export default async function Home({searchParams}) {
 
   const params = await searchParams;
   const pattern = params.pattern;
-
+  console.log(pattern);
   return (
-    <div className={`page_${pattern}`} > 
+    <div className={pattern ? `page_${pattern}` : 'page'} > 
             <Card color={"Yellow"}>
             <Image 
             src="/jarthur_logo.png"
