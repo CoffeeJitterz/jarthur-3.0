@@ -9,10 +9,6 @@ const drawingRender = drawings.map(drawing => {if(drawing.id === params.id) {ret
 
   return (
     <div>
-      {/* {params.id}
-      <h1>{drawings[1].id}</h1>
-      <h1>{drawings[1].title}</h1>
-      <h3>{drawings[1].description}</h3> */}
       {drawingRender}
     </div>
   )
