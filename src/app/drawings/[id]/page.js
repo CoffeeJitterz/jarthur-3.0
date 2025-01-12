@@ -1,8 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 
-const drawings = [{id:"poop", title:"crazy caves", description: "that was a crazy part of the cave", image: "/jarthur_logo.png"},
-                  {id:"pee", title:"wild caves", description: "that was a wild part of the cave", image: "/1.png"}]
+const drawings = [{
+  id:"poop", 
+  title:"crazy caves", 
+  description: "that was a crazy part of the cave", 
+  image: "/jarthur_logo.png"
+},
+                  {
+  id:"pee", 
+  title:"wild caves", 
+  description: "that was a wild part of the cave", 
+  image: "/1.png"}]
 
 
 function drawingPage({params}) {
