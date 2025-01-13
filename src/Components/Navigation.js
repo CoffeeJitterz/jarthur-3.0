@@ -27,7 +27,7 @@ export default function Navigation() {
 
 <Link 
 className="link" 
-onClick={() => {click_pattern(pattern); click_color("Blue")}} 
+onClick={() => {click_pattern(pattern); click_color("ffe69d")}} 
 href={{
     pathname:"/",
     query: {
