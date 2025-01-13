@@ -8,6 +8,7 @@ export default async function Home({searchParams}) {
   console.log(pattern);
   return (
     <div className={pattern ? `page_${pattern}` : 'page'} > 
+    <Card name={'big'} color={'brown'}>
             <Image 
             src="/jarthur_logo.png"
             width={650}
@@ -22,6 +23,7 @@ export default async function Home({searchParams}) {
               alt="funny words"
               />
             </Card>
+    </Card>
     </div>
 
   );
