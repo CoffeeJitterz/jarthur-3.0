@@ -4,9 +4,9 @@ import Navigation from "@/Components/Navigation";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>      
+      <body>    
+        <Navigation />  
         {children}
-        <Navigation />
       </body>
     </html>
   );
