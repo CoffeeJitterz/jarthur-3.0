@@ -1,18 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-
-const drawings = [{
-  id:"1", 
-  title:"crazy caves", 
-  description: "that was a crazy part of the cave", 
-  image: "/images/1.jpg"
-},
-                  {
-  id:"2", 
-  title:"wild caves", 
-  description: "that was a wild part of the cave", 
-  image: "/images/2.jpg"
-}]
+import drawings from '@/Data/drawings'
 
 
 function drawingPage({params}) {
