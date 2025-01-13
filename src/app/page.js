@@ -14,7 +14,7 @@ export default async function Home({searchParams}) {
             height={600}
             alt="cartoon faces"
             />
-            <Card color={"ffd902"}>
+            <Card color={'rgb(255, 217, 2)'}>
               <Image 
               src="/jarthur_slogan.png"
               width={400}
