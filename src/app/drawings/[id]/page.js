@@ -2,16 +2,17 @@ import React from 'react'
 import Image from 'next/image'
 
 const drawings = [{
-  id:"poop", 
+  id:"1", 
   title:"crazy caves", 
   description: "that was a crazy part of the cave", 
-  image: "/jarthur_logo.png"
+  image: "/images/1.jpg"
 },
                   {
-  id:"pee", 
+  id:"2", 
   title:"wild caves", 
   description: "that was a wild part of the cave", 
-  image: "/1.png"}]
+  image: "/images/2.jpg"
+}]
 
 
 function drawingPage({params}) {
