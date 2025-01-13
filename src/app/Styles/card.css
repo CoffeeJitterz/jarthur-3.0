@@ -2,10 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(68, 255, 65, 0.9);
+    background-color: rgba(65, 179, 255, 0.8);
     width: 80%;
     margin:  20px;
-    border: 10px solid ;
+    border: 20px solid ;
     padding: 15px;
-    border-image: url('/border.png') 30 stretch;
+    border-image: url('/border.png') 20% round;
+    outline-style: solid;
+    outline-color: rgba(65, 179, 255, 0.8);
+    outline-width: 10px;
+    border-radius: 5px;
 }
