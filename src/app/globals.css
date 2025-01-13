@@ -4,7 +4,7 @@
 @import "styles/navigation.css";
 @import "styles/patterns.css";
 @import "styles/drawings.css";
-@import "styles/card.css"
+@import "styles/card.css";
 
 :root {
   --background: #ffffff;

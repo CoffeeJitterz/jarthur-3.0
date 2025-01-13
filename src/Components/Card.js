@@ -3,7 +3,7 @@ import React from 'react'
 function Card(props) {
   
   return (
-    <div className={`${props.name}`} style={{backgroundColor:`${props.color}`, borderRadius:'5px'}}>
+    <div className={`${props.name}`} style={{backgroundColor:`${props.color}` }}>
       {props.children}
     </div>
   )
