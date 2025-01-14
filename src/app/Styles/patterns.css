@@ -5,6 +5,13 @@
   background-image: url('/jarthur_pattern_1.png');
   background-size: 250px;
   background-repeat: repeat;
+  outline-style: solid;
+  outline-color: rgb(255, 217, 2);
+  outline-width: 10px;
+  border-radius: 25px;
+  border: 20px solid transparent;
+  padding: 15px;
+  border-image: url('/border.png') 25% round
 
 }
  

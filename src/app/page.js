@@ -1,6 +1,8 @@
 
 import Image from "next/image";
 import Card from "@/Components/Card";
+import Random from "@/Components/Random";
+
 
 export default async function Home({searchParams}) {
   const params = await searchParams;
@@ -23,6 +25,7 @@ export default async function Home({searchParams}) {
               alt="funny words"
               />
             </Card>
+            <Random />
     </div>
     </div>
 
