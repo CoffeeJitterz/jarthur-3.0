@@ -16,9 +16,9 @@ export default function Navigation() {
 
   const [pattern, setPattern] = useState(1)
   const click_pattern = pattern => {
-    if (pattern < 9) {
+    if (pattern < 10) {
       setPattern(pattern + 1)
-    } else if (pattern >= 9)
+    } else if (pattern >= 10)
     setPattern(1)
   }
 
