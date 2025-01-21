@@ -13,3 +13,21 @@
     outline-width: 10px;
     border-radius: 5px;
 }
+
+.slogan {
+    outline-style: solid;
+    outline-color: rgb(255, 217, 2);
+    outline-width: 10px;
+    border-radius: 25px;
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url('/border_1.png') 30 stretch;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    margin: 50px;
+}
