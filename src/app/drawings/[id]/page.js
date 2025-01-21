@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import drawings from '@/Data/drawings'
+import Random from '@/Components/Random'
 
 
 function drawingPage({params}) {
@@ -16,6 +17,7 @@ const drawingRender = drawings.map(drawing => {if(drawing.id === params.id)
             height={750}
             alt="cartoon faces"
             />
+            <Random />
     </div>}})
 
   return (

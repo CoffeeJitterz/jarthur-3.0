@@ -5,6 +5,7 @@
 @import "styles/patterns.css";
 @import "styles/drawings.css";
 @import "styles/card.css";
+@import "styles/random.css";
 
 :root {
   --background: #ffffff;

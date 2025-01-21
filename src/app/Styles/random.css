@@ -1,0 +1,9 @@
+.random {
+    background-color: aqua;
+    border: none;
+    padding: 10px;
+}
+
+.random:hover {
+    background-color: blueviolet;
+}

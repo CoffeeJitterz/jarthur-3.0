@@ -105,8 +105,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('/jarthur_pattern_drip_2.png');
+    background-size: 500px, 800px;
+    background-repeat: repeat, repeat-x;
+    height: 95vh;
+  }
+  .page_11{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url('/jarthur_pattern_drip.png');
-    background-size: 250px, 800px;
+    background-size: 500px, 800px;
     background-repeat: repeat, repeat-x;
     height: 95vh;
   }

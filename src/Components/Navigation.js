@@ -16,9 +16,9 @@ export default function Navigation() {
 
   const [pattern, setPattern] = useState(1)
   const click_pattern = pattern => {
-    if (pattern < 10) {
+    if (pattern < 11) {
       setPattern(pattern + 1)
-    } else if (pattern >= 10)
+    } else if (pattern >= 11)
     setPattern(1)
   }
 
@@ -44,13 +44,13 @@ href={{
 About</Link>
 <Link 
 className="link" 
-onClick={() => {click_pattern(pattern); click_color("Brown")}} 
-href={{pathname: "/milk",
+onClick={() => {click_pattern(pattern); click_color("Teal")}} 
+href={{pathname: "/album",
         query: {
             pattern: pattern
         }
 }}>
-milk</Link>
+The Unfinished Album</Link>
 </div>
 
 

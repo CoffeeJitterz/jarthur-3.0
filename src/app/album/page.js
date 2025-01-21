@@ -1,12 +1,12 @@
 
-export default async function About({searchParams}) {
+export default async function Album({searchParams}) {
 
     const params = await searchParams;
 
     const pattern = params.pattern;
     return (
       <div className={`page_${pattern}`}>
-        <h1>Milk</h1>
+        <h1>The Unfinished Album</h1>
       </div>
     );
   }
